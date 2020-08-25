@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F44996A38C80E4921F84F4 /* Pods_ChengduCement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F816779D618C3F68A833B /* Pods_ChengduCement.framework */; };
 		FD13DB6224D92E54003B61FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13DB6124D92E54003B61FD /* AppDelegate.swift */; };
 		FD13DB6424D92E54003B61FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13DB6324D92E54003B61FD /* SceneDelegate.swift */; };
-		FD13DB6624D92E54003B61FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13DB6524D92E54003B61FD /* ViewController.swift */; };
-		FD13DB6924D92E54003B61FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD13DB6724D92E54003B61FD /* Main.storyboard */; };
 		FD13DB6B24D92E59003B61FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD13DB6A24D92E59003B61FD /* Assets.xcassets */; };
 		FD13DB6E24D92E59003B61FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD13DB6C24D92E59003B61FD /* LaunchScreen.storyboard */; };
 		FD13DB7924D92E59003B61FD /* ChengduCementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13DB7824D92E59003B61FD /* ChengduCementTests.swift */; };
 		FD13DB8424D92E59003B61FD /* ChengduCementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD13DB8324D92E59003B61FD /* ChengduCementUITests.swift */; };
+		FD3DDB9924E678ED001A8C85 /* BaseWebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3DDB9824E678ED001A8C85 /* BaseWebviewViewController.swift */; };
+		FD5F835924DCF876003307C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F835824DCF876003307C5 /* LoginViewController.swift */; };
+		FD7C98B224E17B7C003E7F41 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98B124E17B7C003E7F41 /* HMAC.swift */; };
+		FD7C98B724E229D2003E7F41 /* SecretContent.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98B624E229D2003E7F41 /* SecretContent.m */; };
+		FD7C98B924E232AF003E7F41 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98B824E232AF003E7F41 /* CommonUtil.swift */; };
+		FD7C98BB24E2349D003E7F41 /* UserUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98BA24E2349D003E7F41 /* UserUtil.swift */; };
+		FD7C98BD24E241DB003E7F41 /* CONST.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98BC24E241DB003E7F41 /* CONST.swift */; };
+		FD7C98C524E3922E003E7F41 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C98C424E3922E003E7F41 /* SettingViewController.swift */; };
+		FD90035924EBD017006A804A /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = FD90035824EBD017006A804A /* test.html */; };
+		FD93D6C624E3CE59007EE7B7 /* ModifyPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93D6C524E3CE59007EE7B7 /* ModifyPwdViewController.swift */; };
+		FD93D6C824E4C94D007EE7B7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93D6C724E4C94D007EE7B7 /* BaseViewController.swift */; };
+		FD93D6CA24E4D62A007EE7B7 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93D6C924E4D62A007EE7B7 /* MyColor.swift */; };
+		FD93D6CC24E50B66007EE7B7 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93D6CB24E50B66007EE7B7 /* WelcomViewController.swift */; };
+		FD9657B524DFCC6200F445D6 /* SDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9657B424DFCC6200F445D6 /* SDialog.swift */; };
+		FD9657B724DFD64300F445D6 /* SToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9657B624DFD64300F445D6 /* SToast.swift */; };
+		FD9EDE5D24E0D4270048908B /* LeftDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9EDE5C24E0D4270048908B /* LeftDrawerViewController.swift */; };
+		FD9EDE5F24E0D4690048908B /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9EDE5E24E0D4690048908B /* MiddleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +50,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FDA0703324E6542C00CA1BAF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		FD13DB5E24D92E54003B61FD /* ChengduCement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChengduCement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F78F83D59807CF7A4F7B18 /* Pods-ChengduCement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengduCement.release.xcconfig"; path = "Target Support Files/Pods-ChengduCement/Pods-ChengduCement.release.xcconfig"; sourceTree = "<group>"; };
+		8F0F816779D618C3F68A833B /* Pods_ChengduCement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChengduCement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8003030097CCB435BD77BDB /* Pods-ChengduCement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChengduCement.debug.xcconfig"; path = "Target Support Files/Pods-ChengduCement/Pods-ChengduCement.debug.xcconfig"; sourceTree = "<group>"; };
+		FD13DB5E24D92E54003B61FD /* 川威水泥.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "川威水泥.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD13DB6124D92E54003B61FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD13DB6324D92E54003B61FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD13DB6524D92E54003B61FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD13DB6824D92E54003B61FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD13DB6A24D92E59003B61FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD13DB6D24D92E59003B61FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD13DB6F24D92E59003B61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +79,25 @@
 		FD13DB7F24D92E59003B61FD /* ChengduCementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChengduCementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD13DB8324D92E59003B61FD /* ChengduCementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChengduCementUITests.swift; sourceTree = "<group>"; };
 		FD13DB8524D92E59003B61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3DDB9824E678ED001A8C85 /* BaseWebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebviewViewController.swift; sourceTree = "<group>"; };
+		FD5F835824DCF876003307C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD7C98B124E17B7C003E7F41 /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		FD7C98B424E229D1003E7F41 /* ChengduCement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChengduCement-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD7C98B524E229D2003E7F41 /* SecretContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretContent.h; sourceTree = "<group>"; };
+		FD7C98B624E229D2003E7F41 /* SecretContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretContent.m; sourceTree = "<group>"; };
+		FD7C98B824E232AF003E7F41 /* CommonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		FD7C98BA24E2349D003E7F41 /* UserUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUtil.swift; sourceTree = "<group>"; };
+		FD7C98BC24E241DB003E7F41 /* CONST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONST.swift; sourceTree = "<group>"; };
+		FD7C98C424E3922E003E7F41 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		FD90035824EBD017006A804A /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = ../../../Desktop/test.html; sourceTree = "<group>"; };
+		FD93D6C524E3CE59007EE7B7 /* ModifyPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyPwdViewController.swift; sourceTree = "<group>"; };
+		FD93D6C724E4C94D007EE7B7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FD93D6C924E4D62A007EE7B7 /* MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		FD93D6CB24E50B66007EE7B7 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		FD9657B424DFCC6200F445D6 /* SDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDialog.swift; sourceTree = "<group>"; };
+		FD9657B624DFD64300F445D6 /* SToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SToast.swift; sourceTree = "<group>"; };
+		FD9EDE5C24E0D4270048908B /* LeftDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftDrawerViewController.swift; sourceTree = "<group>"; };
+		FD9EDE5E24E0D4690048908B /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F44996A38C80E4921F84F4 /* Pods_ChengduCement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +126,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BB484D8DD0523E62C98042A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8003030097CCB435BD77BDB /* Pods-ChengduCement.debug.xcconfig */,
+				12F78F83D59807CF7A4F7B18 /* Pods-ChengduCement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6FA48A7CEE1737FA00C3441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F816779D618C3F68A833B /* Pods_ChengduCement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD13DB5524D92E54003B61FD = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +150,15 @@
 				FD13DB7724D92E59003B61FD /* ChengduCementTests */,
 				FD13DB8224D92E59003B61FD /* ChengduCementUITests */,
 				FD13DB5F24D92E54003B61FD /* Products */,
+				5BB484D8DD0523E62C98042A /* Pods */,
+				D6FA48A7CEE1737FA00C3441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FD13DB5F24D92E54003B61FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD13DB5E24D92E54003B61FD /* ChengduCement.app */,
+				FD13DB5E24D92E54003B61FD /* 川威水泥.app */,
 				FD13DB7424D92E59003B61FD /* ChengduCementTests.xctest */,
 				FD13DB7F24D92E59003B61FD /* ChengduCementUITests.xctest */,
 			);
@@ -99,13 +168,23 @@
 		FD13DB6024D92E54003B61FD /* ChengduCement */ = {
 			isa = PBXGroup;
 			children = (
+				FD90035824EBD017006A804A /* test.html */,
+				FD7C98B324E2296A003E7F41 /* oc */,
+				FD7C98B024E17B67003E7F41 /* util */,
+				FD9EDE5C24E0D4270048908B /* LeftDrawerViewController.swift */,
+				FD9EDE5E24E0D4690048908B /* MiddleViewController.swift */,
+				FD9657B124DFCBF000F445D6 /* view */,
 				FD13DB6124D92E54003B61FD /* AppDelegate.swift */,
 				FD13DB6324D92E54003B61FD /* SceneDelegate.swift */,
-				FD13DB6524D92E54003B61FD /* ViewController.swift */,
-				FD13DB6724D92E54003B61FD /* Main.storyboard */,
 				FD13DB6A24D92E59003B61FD /* Assets.xcassets */,
 				FD13DB6C24D92E59003B61FD /* LaunchScreen.storyboard */,
 				FD13DB6F24D92E59003B61FD /* Info.plist */,
+				FD5F835824DCF876003307C5 /* LoginViewController.swift */,
+				FD7C98C424E3922E003E7F41 /* SettingViewController.swift */,
+				FD93D6C524E3CE59007EE7B7 /* ModifyPwdViewController.swift */,
+				FD93D6C724E4C94D007EE7B7 /* BaseViewController.swift */,
+				FD93D6CB24E50B66007EE7B7 /* WelcomViewController.swift */,
+				FD3DDB9824E678ED001A8C85 /* BaseWebviewViewController.swift */,
 			);
 			path = ChengduCement;
 			sourceTree = "<group>";
@@ -128,6 +207,37 @@
 			path = ChengduCementUITests;
 			sourceTree = "<group>";
 		};
+		FD7C98B024E17B67003E7F41 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C98B124E17B7C003E7F41 /* HMAC.swift */,
+				FD7C98B824E232AF003E7F41 /* CommonUtil.swift */,
+				FD7C98BA24E2349D003E7F41 /* UserUtil.swift */,
+				FD7C98BC24E241DB003E7F41 /* CONST.swift */,
+				FD93D6C924E4D62A007EE7B7 /* MyColor.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		FD7C98B324E2296A003E7F41 /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				FD7C98B524E229D2003E7F41 /* SecretContent.h */,
+				FD7C98B624E229D2003E7F41 /* SecretContent.m */,
+				FD7C98B424E229D1003E7F41 /* ChengduCement-Bridging-Header.h */,
+			);
+			path = oc;
+			sourceTree = "<group>";
+		};
+		FD9657B124DFCBF000F445D6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FD9657B424DFCC6200F445D6 /* SDialog.swift */,
+				FD9657B624DFD64300F445D6 /* SToast.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD13DB8824D92E59003B61FD /* Build configuration list for PBXNativeTarget "ChengduCement" */;
 			buildPhases = (
+				C16938B432D8F12B87B66B4F /* [CP] Check Pods Manifest.lock */,
 				FD13DB5A24D92E54003B61FD /* Sources */,
 				FD13DB5B24D92E54003B61FD /* Frameworks */,
 				FD13DB5C24D92E54003B61FD /* Resources */,
+				FDA0703324E6542C00CA1BAF /* Embed Frameworks */,
+				7AE1821E6B84CCB2AAD2541D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,7 +258,7 @@
 			);
 			name = ChengduCement;
 			productName = ChengduCement;
-			productReference = FD13DB5E24D92E54003B61FD /* ChengduCement.app */;
+			productReference = FD13DB5E24D92E54003B61FD /* 川威水泥.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FD13DB7324D92E59003B61FD /* ChengduCementTests */ = {
@@ -196,6 +309,7 @@
 				TargetAttributes = {
 					FD13DB5D24D92E54003B61FD = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					FD13DB7324D92E59003B61FD = {
 						CreatedOnToolsVersion = 11.6;
@@ -234,7 +348,7 @@
 			files = (
 				FD13DB6E24D92E59003B61FD /* LaunchScreen.storyboard in Resources */,
 				FD13DB6B24D92E59003B61FD /* Assets.xcassets in Resources */,
-				FD13DB6924D92E54003B61FD /* Main.storyboard in Resources */,
+				FD90035924EBD017006A804A /* test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +368,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7AE1821E6B84CCB2AAD2541D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChengduCement/Pods-ChengduCement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChengduCement/Pods-ChengduCement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChengduCement/Pods-ChengduCement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16938B432D8F12B87B66B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChengduCement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD13DB5A24D92E54003B61FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD13DB6624D92E54003B61FD /* ViewController.swift in Sources */,
+				FD9EDE5D24E0D4270048908B /* LeftDrawerViewController.swift in Sources */,
+				FD7C98B724E229D2003E7F41 /* SecretContent.m in Sources */,
+				FD7C98B924E232AF003E7F41 /* CommonUtil.swift in Sources */,
 				FD13DB6224D92E54003B61FD /* AppDelegate.swift in Sources */,
+				FD7C98C524E3922E003E7F41 /* SettingViewController.swift in Sources */,
 				FD13DB6424D92E54003B61FD /* SceneDelegate.swift in Sources */,
+				FD93D6C824E4C94D007EE7B7 /* BaseViewController.swift in Sources */,
+				FD3DDB9924E678ED001A8C85 /* BaseWebviewViewController.swift in Sources */,
+				FD7C98BB24E2349D003E7F41 /* UserUtil.swift in Sources */,
+				FD9657B524DFCC6200F445D6 /* SDialog.swift in Sources */,
+				FD9EDE5F24E0D4690048908B /* MiddleViewController.swift in Sources */,
+				FD93D6CC24E50B66007EE7B7 /* WelcomViewController.swift in Sources */,
+				FD93D6CA24E4D62A007EE7B7 /* MyColor.swift in Sources */,
+				FD93D6C624E3CE59007EE7B7 /* ModifyPwdViewController.swift in Sources */,
+				FD7C98BD24E241DB003E7F41 /* CONST.swift in Sources */,
+				FD7C98B224E17B7C003E7F41 /* HMAC.swift in Sources */,
+				FD5F835924DCF876003307C5 /* LoginViewController.swift in Sources */,
+				FD9657B724DFD64300F445D6 /* SToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +468,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD13DB6724D92E54003B61FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD13DB6824D92E54003B61FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD13DB6C24D92E59003B61FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,35 +595,58 @@
 		};
 		FD13DB8924D92E59003B61FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8003030097CCB435BD77BDB /* Pods-ChengduCement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H88TRLCXD;
 				INFOPLIST_FILE = ChengduCement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wazh.shawn.ChengduCement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					SideMenu,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wazh.shawn.cdcement;
+				PRODUCT_NAME = "川威水泥";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChengduCement/oc/ChengduCement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		FD13DB8A24D92E59003B61FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F78F83D59807CF7A4F7B18 /* Pods-ChengduCement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H88TRLCXD;
 				INFOPLIST_FILE = ChengduCement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wazh.shawn.ChengduCement;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					SideMenu,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wazh.shawn.cdcement;
+				PRODUCT_NAME = "川威水泥";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChengduCement/oc/ChengduCement-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
